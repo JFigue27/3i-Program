@@ -1,9 +1,13 @@
-import React from 'react'
+import I3Form from '@/components/i3Form';
+import Layout from '@/components/Layout';
+import React from 'react';
 
 const Home = () => {
   return (
-    <div>Home de SIEMENS</div>
-  )
-}
+    <Layout>
+      <I3Form />
+    </Layout>
+  );
+};
 
-export default Home
+export default Home;
